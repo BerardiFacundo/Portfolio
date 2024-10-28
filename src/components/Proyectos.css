@@ -1,0 +1,37 @@
+.proyectos {
+  padding: 20px;
+  background-color: #f3f4f6;
+}
+
+.proyectos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.proyecto {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.proyecto:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.proyecto h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.proyecto p {
+  color: #666;
+  line-height: 1.6;
+}

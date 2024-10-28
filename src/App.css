@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header, .sobre-mi, .habilidades, .experiencia, .proyectos, .footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.proyectos-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.proyecto {
+  background-color: #f9f9f9;
+  padding: 20px;
+  width: 45%;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.proyecto:hover {
+  transform: scale(1.05);
+}
