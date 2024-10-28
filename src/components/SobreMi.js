@@ -5,8 +5,16 @@ function SobreMi() {
   return (
     <section className="sobre-mi">
       <h2>Sobre Mí</h2>
-      <p>Hola, soy un desarrollador, me encanta el desarrollo web y la tecnología.</p>
-      <p>Soy de Mar del Plata, me gusta el surf y los deportes.</p>
+      <div className='texto'>
+        <p>
+          Hola, soy Facundo Berardi.
+          Soy un desarrollador web y disfruto programar.</p>
+        <p>
+          Tengo experiencia en diversos lenguajes y frameworks, algunos de ellos son JavaScript y React.</p> 
+        <p>
+          Siempre estoy  buscando nuevas oportunidades para aprender y crecer en el mundo de la programación
+        </p>
+      </div>
     </section>
   );
 }
